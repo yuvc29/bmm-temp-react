@@ -7,7 +7,6 @@ import { textAlign } from "@mui/system";
 import { Button } from "antd";
 import { useEffect, useState } from "react"
 
-
 import BookingSummary from "../BookingTicket/BookingSummary";
 import { Link, useLocation } from 'react-router-dom';
 
