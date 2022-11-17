@@ -8,7 +8,7 @@ import { Link, useLocation } from "react-router-dom";
 import axois from 'axios';
 import axios from 'axios';
 
-function BookingSummary() {
+function BookingSummary({user}) {
 
   const location = useLocation();
   const {seatList, title, Hall_Name, Hall_Address, Total_ticket, total_ticket_price, seat_type, poster, Selected_date, Selected_time, showId, selected_Seat_Num, ticket, orderObj, orderId } = location.state;
